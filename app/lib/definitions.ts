@@ -17,7 +17,7 @@ export type Customer = {
 };
 
 export type Invoice = {
-  id: string;
+  id: string; //Sera creado en la base de datos.
   customer_id: string;
   amount: number;
   date: string;
